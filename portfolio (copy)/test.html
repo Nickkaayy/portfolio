@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<style>
+</style>
+<body>
+
+        
+            <div id= "my_div">
+              <img src = "s1.jpg">
+              <img src = "s2.jpg">
+              <img src = "s3.jpg">
+              <img src = "kmc 2.jpg">
+              <img src = "kmc.jpg">
+              <img src = "ss edited.jpg">
+              <h>asld;kfjalsfjlsdf</h
+            </divs>
+
+<script>
+var g = document.getElementById('my_div');
+for (var i = 0, len = g.children.length; i < len; i++)
+{
+
+    (function(index){
+        g.children[i].onclick = function(){
+              alert(index)  ;
+        }    
+    })(i);
+
+}
+</script>
+</body>
+</html>
